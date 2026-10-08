@@ -1,3 +1,7 @@
+"use client";
+
+import { useMemo, useState } from "react";
+
 const categories = [
   ["🎬", "Video", "AI video generators, editors and creators"],
   ["✍️", "Writing", "Writing, rewriting and content tools"],
@@ -6,10 +10,6 @@ const categories = [
   ["💻", "Coding", "Coding assistants and developer tools"],
   ["🔎", "Research", "Research, search and knowledge tools"],
 ];
-
-"use client";
-
-import { useMemo, useState } from "react";
 
 const tools = [
   { name: "Fliki", type: "AI Video", desc: "Turn ideas, scripts and blog posts into videos with AI voices.", tag: "Video", href: "/tools/fliki" },

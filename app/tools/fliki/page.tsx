@@ -3,7 +3,7 @@ export const metadata = {
   description: "A practical guide to Fliki: AI video generation, voices, editing, free-plan limits, strengths and limitations.",
 };
 
-const flikiUrl = "https://fliki.ai";
+const flikiUrl = "https://fliki.ai/?via=alenlenthang";
 
 export default function FlikiPage() {
   return (
@@ -17,7 +17,7 @@ export default function FlikiPage() {
         <h1>Fliki: AI video creation in one workspace.</h1>
         <p className="heroText">Fliki turns ideas, scripts, blog posts and presentations into videos with AI voices, visuals, captions and editing tools.</p>
         <a className="button" href={flikiUrl} target="_blank" rel="noreferrer">Try Fliki →</a>
-        <p className="smallNote">AI Pick may earn a commission from qualifying purchases.</p>
+        <p className="smallNote">Affiliate link. AI Pick may earn a commission from qualifying purchases.</p>
       </div></section>
       <section className="section"><div className="wrap">
         <div className="kicker">AT A GLANCE</div><h2>What Fliki does</h2>
@@ -42,7 +42,7 @@ export default function FlikiPage() {
       <section className="section"><div className="wrap">
         <div className="kicker">FAQ</div><h2>Common questions</h2><div className="faq"><details><summary>Is Fliki free?</summary><p>Yes. Fliki has a free-forever plan with 3 minutes of video per month and no credit card required.</p></details><details><summary>Does the free plan have a watermark?</summary><p>Yes. Free exports include a Fliki watermark.</p></details><details><summary>Can I use Fliki for YouTube?</summary><p>Yes. Fliki supports YouTube workflows. Commercial rights are included with paid plans, subject to Fliki's terms.</p></details><details><summary>Does Fliki support AI voices?</summary><p>Yes. Fliki offers AI voices across 80+ languages.</p></details></div>
       </div></section>
-      <section className="section sourceSection"><div className="wrap"><div className="kicker">SOURCES</div><p>Information verified from Fliki's official pricing, AI video and FAQ pages on October 8, 2026.</p><div className="sourceLinks"><a href="https://fliki.ai/pricing" target="_blank" rel="noreferrer">Fliki pricing</a><a href="https://fliki.ai/features/ai-video-generator" target="_blank" rel="noreferrer">Fliki AI video generator</a><a href="https://fliki.ai/frequently-asked-questions" target="_blank" rel="noreferrer">Fliki FAQ</a></div></div></section>
+      <section className="section sourceSection"><div className="wrap"><div className="kicker">SOURCES</div><p>Information verified from Fliki's official pricing, AI video and FAQ pages.</p><div className="sourceLinks"><a href="https://fliki.ai/pricing" target="_blank" rel="noreferrer">Fliki pricing</a><a href="https://fliki.ai/features/ai-video-generator" target="_blank" rel="noreferrer">Fliki AI video generator</a><a href="https://fliki.ai/frequently-asked-questions" target="_blank" rel="noreferrer">Fliki FAQ</a></div></div></section>
       <footer><div className="wrap footerInner"><div><div className="brand">AI <span>Pick</span></div><p>Find the right AI tool for the job.</p></div><div className="footerNote">Independent AI tool discovery and comparison.</div></div></footer>
     </main>
   );

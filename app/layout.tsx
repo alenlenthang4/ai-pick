@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   description: "Discover, compare, and choose AI tools for creators, freelancers, and small businesses.",
   metadataBase: new URL("https://ai-pick-alen317.vercel.app"),
   robots: { index: true, follow: true },
+  verification: {
+    google: "PjjS53B6TMiRv7Vpqr8Jy_o6lNp42wq3hASRoaKJIdU",
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

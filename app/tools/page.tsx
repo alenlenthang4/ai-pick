@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "AI Tools Directory: Compare Video and Voice Tools | AI Pick",
   description:
-    "Browse AI Pick's practical guides to AI video generators and voice tools. Compare use cases, free-plan limits, strengths and alternatives before choosing.",
+    "Compare AI video and voice tools by workflow, strengths, limitations and free-plan considerations. Read practical guides before choosing an AI tool.",
 };
 
 const tools = [
@@ -11,17 +11,19 @@ const tools = [
     name: "Fliki",
     category: "AI video generator",
     description:
-      "Turn scripts and ideas into narrated videos with AI voices, visuals and captions. Useful for creators who want a more all-in-one workflow.",
+      "Turn scripts and ideas into narrated videos with AI voices, visuals and captions. Worth exploring if you want several video-making steps in one workflow.",
+    bestFor: "Starting with a script or idea and building a narrated video.",
     href: "/tools/fliki",
-    label: "Read Fliki guide →",
+    label: "Read the Fliki guide →",
   },
   {
     name: "ElevenLabs",
     category: "AI voice and audio",
     description:
-      "Explore expressive AI voiceovers, speech tools and audio workflows. Useful when narration quality matters most.",
+      "Explore expressive AI voiceovers and speech tools. Worth exploring when narration is a key part of your video or audio project.",
+    bestFor: "Creating narration or voice audio for a project.",
     href: "/tools/elevenlabs",
-    label: "Read ElevenLabs guide →",
+    label: "Read the ElevenLabs guide →",
   },
 ];
 
@@ -43,11 +45,11 @@ export default function ToolsDirectoryPage() {
       <section className="hero toolHero">
         <div className="wrap heroInner">
           <div className="eyebrow">AI PICK DIRECTORY</div>
-          <h1>Explore AI tools for your next project.</h1>
+          <h1>Find an AI tool that fits your workflow.</h1>
           <p className="heroText">
-            Start with what you want to make. Our practical guides explain what each
-            tool does, who it may suit, what to check on free plans and which
-            alternatives are worth comparing.
+            The best tool depends on what you need to make, how much work you want
+            the tool to do, and what you can spend. Use these practical guides to
+            compare workflows, check limitations and make a more informed choice.
           </p>
           <a className="button" href="/#finder">Find a tool for my task →</a>
         </div>
@@ -55,12 +57,12 @@ export default function ToolsDirectoryPage() {
 
       <section className="section">
         <div className="wrap">
-          <div className="kicker">CURRENTLY LISTED</div>
+          <div className="kicker">START WITH YOUR TASK</div>
           <h2>Video and voice tools</h2>
           <p className="wideText">
             We are building this directory carefully, starting with tools for
-            creators. Availability, features and plan limits can change, so check
-            each provider's official information before paying.
+            creators. Features, pricing and usage rights can change; check each
+            provider’s official information before paying or publishing commercial work.
           </p>
           <div className="infoGrid">
             {tools.map((tool) => (
@@ -68,6 +70,7 @@ export default function ToolsDirectoryPage() {
                 <div className="kicker">{tool.category}</div>
                 <h3>{tool.name}</h3>
                 <p>{tool.description}</p>
+                <p><strong>Consider it for:</strong> {tool.bestFor}</p>
                 <a href={tool.href}>{tool.label}</a>
               </article>
             ))}
@@ -77,18 +80,75 @@ export default function ToolsDirectoryPage() {
 
       <section className="section soft">
         <div className="wrap">
-          <div className="kicker">CHOOSE BY WORKFLOW</div>
-          <h2>Not sure where to start?</h2>
+          <div className="kicker">QUICK COMPARISON</div>
+          <h2>Fliki or ElevenLabs?</h2>
           <p className="wideText">
-            If you need a complete video from a script, compare an AI video tool.
-            If you already have visuals and mainly need narration, start with an
-            AI voice tool. The AI Pick Finder can narrow the options by task and
+            These tools serve different primary needs, so the right starting point
+            depends on which part of your workflow is slowing you down.
+          </p>
+          <div className="infoGrid">
+            <article className="infoCard">
+              <h3>Choose Fliki when…</h3>
+              <p>You want to turn an idea or script into a narrated video and prefer a workflow that brings multiple video-making steps together.</p>
+              <a href="/tools/fliki">Check Fliki’s plan limits and alternatives →</a>
+            </article>
+            <article className="infoCard">
+              <h3>Choose ElevenLabs when…</h3>
+              <p>Your main need is voice narration or audio, and you may use a separate editor or video generator for the visuals.</p>
+              <a href="/tools/elevenlabs">Check ElevenLabs’ plan limits and alternatives →</a>
+            </article>
+          </div>
+          <p className="smallNote">
+            This is a workflow comparison, not a claim that one tool is best for everyone.
+            Review current free-plan allowances, commercial-use terms and export restrictions
+            on the official provider websites before deciding.
+          </p>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="wrap">
+          <div className="kicker">BEFORE YOU SIGN UP</div>
+          <h2>Five things to check before choosing an AI tool</h2>
+          <div className="infoGrid">
+            <article className="infoCard">
+              <h3>1. Free-plan limits</h3>
+              <p>Check monthly credits, minutes, export resolution, watermarks and whether unused credits roll over.</p>
+            </article>
+            <article className="infoCard">
+              <h3>2. Commercial rights</h3>
+              <p>Confirm whether your plan allows monetized videos, client work and commercial publishing.</p>
+            </article>
+            <article className="infoCard">
+              <h3>3. Real workflow fit</h3>
+              <p>Check whether you need script-to-video, voice generation, editing or only one specific feature.</p>
+            </article>
+            <article className="infoCard">
+              <h3>4. Total cost</h3>
+              <p>Look beyond the starting price: estimate the credits or minutes you will actually use each month.</p>
+            </article>
+            <article className="infoCard">
+              <h3>5. Your export needs</h3>
+              <p>Verify resolution, aspect ratio, download options, captions and any restrictions that matter to your platform.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section className="section soft">
+        <div className="wrap">
+          <div className="kicker">CHOOSE BY WORKFLOW</div>
+          <h2>Still unsure where to start?</h2>
+          <p className="wideText">
+            If you need help making a complete video from a script, start by comparing
+            video tools. If you already have visuals and mainly need narration, start
+            with voice tools. AI Pick Finder can narrow the options by task and
             free-plan availability.
           </p>
           <a className="button" href="/#finder">Use AI Pick Finder →</a>
           <p className="smallNote">
             AI Pick may earn a commission from qualifying referrals. This does not
-            determine our editorial assessments.
+            determine our editorial assessments. Read our <a href="/affiliate-disclosure">affiliate disclosure</a>.
           </p>
         </div>
       </section>

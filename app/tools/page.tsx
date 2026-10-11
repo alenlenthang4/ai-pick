@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/tools" },
   title: "AI Tools Directory: Compare Video and Voice Tools | AI Pick",
   description:
     "Compare AI video and voice tools by workflow, strengths, limitations and free-plan considerations. Read practical guides before choosing an AI tool.",

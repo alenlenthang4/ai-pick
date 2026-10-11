@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/tools/fliki" },
   title: "Fliki AI Video Generator: Free Plan, Limits & Alternatives | AI Pick",
   description: "Explore Fliki's AI video workflow, free-plan limits, strengths, drawbacks and alternatives for YouTube creators and short-form video makers.",
 };

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/affiliate-disclosure" },
   title: "Affiliate Disclosure | AI Pick",
   description: "How AI Pick handles affiliate links and compensation.",
 };

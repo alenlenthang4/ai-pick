@@ -1,4 +1,5 @@
 export const metadata = {
+  alternates: { canonical: "/tools/elevenlabs" },
   title: "ElevenLabs Review: AI Voiceovers, Free Plan & Alternatives | AI Pick",
   description:
     "Explore ElevenLabs for YouTube narration, Shorts, voice cloning and speech-to-text. Learn its strengths, limitations, free-plan considerations and alternatives.",

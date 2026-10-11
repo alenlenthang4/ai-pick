@@ -78,6 +78,15 @@ export default function ToolsDirectoryPage() {
         </div>
       </section>
 
+      <section className="section">
+        <div className="wrap">
+          <div className="kicker">CREATOR GUIDE</div>
+          <h2>Choosing a free AI video generator?</h2>
+          <p className="wideText">Compare free-plan restrictions, workflows and practical options for YouTube creators in India before choosing a tool.</p>
+          <a className="button" href="/guides/best-free-ai-video-generators-youtube-india">Read the free AI video generator guide →</a>
+        </div>
+      </section>
+
       <section className="section soft">
         <div className="wrap">
           <div className="kicker">QUICK COMPARISON</div>

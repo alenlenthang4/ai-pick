@@ -87,6 +87,15 @@ export default function ToolsDirectoryPage() {
         </div>
       </section>
 
+      <section className="section">
+        <div className="wrap">
+          <div className="kicker">PRACTICAL CREATOR GUIDE</div>
+          <h2>Make YouTube videos with AI on a ₹0 budget</h2>
+          <p className="wideText">Follow a practical workflow from idea and script to narration, visuals, editing and upload—while checking free-plan limits and usage rights.</p>
+          <a className="button" href="/guides/make-youtube-videos-with-ai-zero-budget">Read the ₹0 AI video workflow guide →</a>
+        </div>
+      </section>
+
       <section className="section soft">
         <div className="wrap">
           <div className="kicker">QUICK COMPARISON</div>

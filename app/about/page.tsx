@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: "/about" },
   title: "About AI Pick | AI Pick",
   description: "Learn what AI Pick does, who it is for, and how tools are evaluated.",
 };

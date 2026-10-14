@@ -35,6 +35,17 @@ export default function FlikiPage() {
         </div>
       </div></section>
 
+      <section className="section"><div className="wrap">
+        <div className="kicker">HANDS-ON TEST</div><h2>Fliki test video created on Android</h2>
+        <p className="wideText">This sample was created using Fliki on an Android phone with free-plan credits. The exported video includes a Fliki watermark, which is an important limitation to consider if you're planning to use the free plan for YouTube videos.</p>
+        <div className="videoFrame" style={{ maxWidth: "860px", margin: "24px auto 0" }}>
+          <video controls playsInline preload="metadata" style={{ display: "block", width: "100%", height: "auto", borderRadius: "12px", background: "#111" }} aria-label="Fliki hands-on test video created on Android">
+            <source src="https://res.cloudinary.com/hqywzesx/video/upload/v1791946597/old-monk-foresees-young-disciple-will-die-in-eight-days.mp4" type="video/mp4" />
+            Your browser does not support embedded video. <a href="https://res.cloudinary.com/hqywzesx/video/upload/v1791946597/old-monk-foresees-young-disciple-will-die-in-eight-days.mp4">Open the video directly</a>.
+          </video>
+        </div>
+      </div></section>
+
       <section className="section soft"><div className="wrap twoCol">
         <div><div className="kicker">FREE PLAN</div><h2>What you can test for free</h2>
           <p>Fliki's official pricing page lists a free plan with 3 credits per month, 720p exports and a watermark. No credit card is required to start. This allowance is useful for testing the workflow, but it is limited for regular publishing.</p>

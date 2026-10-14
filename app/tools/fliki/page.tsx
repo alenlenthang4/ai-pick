@@ -50,6 +50,13 @@ export default function FlikiPage() {
         </div>
       </div></section>
 
+
+      <section className="section soft"><div className="wrap">
+        <div className="kicker">PRACTICAL TEST · ANDROID</div><h2>What we found on the free plan</h2>
+        <p className="wideText">In a hands-on test on an Android phone, Fliki's free credits were enough to generate a video the tester considered good enough for YouTube. The important catch appeared at export: downloading without the watermark required a paid upgrade. That makes the free plan useful for trying the workflow and judging the result, but not a watermark-free publishing option.</p>
+        <p className="smallNote">This is a limited, single-user test, not a guarantee that every project will look the same. Results depend on the script, selected visuals, voice and editing.</p>
+      </div></section>
+
       <section className="section"><div className="wrap">
         <div className="kicker">WHO IT'S FOR</div><h2>Best for creators who want an end-to-end workflow.</h2>
         <div className="prosGrid">

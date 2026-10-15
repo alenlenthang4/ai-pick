@@ -20,7 +20,7 @@ export default function FlikiPage() {
         <div className="eyebrow">AI VIDEO TOOL</div>
         <h1>Fliki: turn scripts and ideas into narrated videos.</h1>
         <p className="heroText">Fliki combines text-to-video, AI voiceovers, visuals, captions and editing in one browser-based workspace. It is designed for creators who want a narrated video without assembling every production step separately.</p>
-        <a className="button" href={flikiUrl} target="_blank" rel="noopener noreferrer">Try Fliki →</a>
+        <a className="button" href={flikiUrl} target="_blank" rel="sponsored noopener noreferrer">Try Fliki →</a>
         <p className="smallNote">Affiliate disclosure: AI Pick may earn a commission from qualifying referrals, at no extra cost to you.</p>
         <p className="smallNote">Last checked: October 9, 2026. Plan features and limits can change; verify them on Fliki's official pricing page before subscribing.</p>
       </div></section>
@@ -72,7 +72,7 @@ export default function FlikiPage() {
       <section className="section soft"><div className="wrap">
         <div className="kicker">AI PICK VERDICT</div><h2>Worth testing if you want narration and visuals together.</h2>
         <p className="wideText">Fliki is most compelling when you want to turn a script or idea into a narrated video in one workspace. Its free plan is a way to evaluate the workflow, not a large monthly production allowance. Before paying, test whether its scene selection, voice quality and editing controls suit the style you want to publish.</p>
-        <a className="button" href={flikiUrl} target="_blank" rel="noopener noreferrer">Try Fliki →</a>
+        <a className="button" href={flikiUrl} target="_blank" rel="sponsored noopener noreferrer">Try Fliki →</a>
       </div></section>
 
       <section className="section"><div className="wrap">

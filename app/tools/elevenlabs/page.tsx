@@ -23,7 +23,7 @@ export default function ElevenLabsPage() {
           ElevenLabs turns text into expressive speech and also offers voice creation, speech-to-text,
           dubbing and tools for building conversational voice experiences.
         </p>
-        <a className="button" href={elevenLabsUrl} target="_blank" rel="noreferrer">Explore ElevenLabs →</a>
+        <a className="button" href={elevenLabsUrl} target="_blank" rel="sponsored noreferrer">Explore ElevenLabs →</a>
         <p className="smallNote">
           Affiliate disclosure: AI Pick may earn a commission if you sign up through qualifying links.
           This does not determine our editorial assessment.
@@ -121,7 +121,7 @@ export default function ElevenLabsPage() {
           choice depends on your language, monthly usage, commercial needs and whether you need audio only
           or a complete video workflow. Compare the current plan terms and test a real sample before paying.
         </p>
-        <a className="button" href={elevenLabsUrl} target="_blank" rel="noreferrer">Explore ElevenLabs →</a>
+        <a className="button" href={elevenLabsUrl} target="_blank" rel="sponsored noreferrer">Explore ElevenLabs →</a>
         <p className="smallNote">Affiliate disclosure: AI Pick may receive compensation from qualifying referrals. Our recommendation is based on workflow fit, not commission.</p>
       </div></section>
 

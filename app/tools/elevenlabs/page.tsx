@@ -132,7 +132,7 @@ export default function ElevenLabsPage() {
           <details><summary>Can I use ElevenLabs for YouTube videos?</summary><p>It can generate narration for video workflows. Before monetizing or using the audio commercially, check the terms of the plan you are using and make sure you have rights to your script and source materials.</p></details>
           <details><summary>Can ElevenLabs clone a voice?</summary><p>It offers Instant and Professional Voice Cloning, subject to product requirements and plan availability. Only clone your own voice or a voice you have explicit permission to use.</p></details>
           <details><summary>Does ElevenLabs support languages other than English?</summary><p>Yes, supported languages depend on the model. Check the current model documentation and test names, accents and pronunciation in your intended language.</p></details>
-          <details><summary>Should I choose ElevenLabs or an AI video generator?</summary><p>Choose ElevenLabs when voice and audio are the priority. If you want one tool to assemble video scenes and narration, compare an all-in-one option such as <a href="/tools/fliki">Fliki</a> or InVideo AI.</p></details>
+          <details><summary>Should I choose ElevenLabs or an AI video generator?</summary><p>Choose ElevenLabs when voice and audio are the priority. If you want one tool to assemble video scenes and narration, compare an all-in-one option such as <a href="/tools/fliki">Fliki</a> or InVideo AI. <a href="/guides/fliki-vs-elevenlabs">See the Fliki vs ElevenLabs comparison →</a></p></details>
         </div>
       </div></section>
 

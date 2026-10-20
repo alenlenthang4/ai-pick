@@ -38,7 +38,7 @@ export default function ToolsDirectoryPage() {
             <a href="/">Home</a>
             <a href="/tools">Tools</a>
             <a href="/#categories">Categories</a>
-            <a href="/#finder">Finder</a>
+            <a href="/#how">Finder</a>
           </div>
         </div>
       </nav>
@@ -67,7 +67,7 @@ export default function ToolsDirectoryPage() {
           </p>
           <div className="infoGrid">
             {tools.map((tool) => (
-              <article className="infoCard" key={tool.name}>
+              <article className="infoCard" id={tool.name === "Fliki" ? "video" : "voice-audio"} key={tool.name}>
                 <div className="kicker">{tool.category}</div>
                 <h3>{tool.name}</h3>
                 <p>{tool.description}</p>

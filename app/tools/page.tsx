@@ -122,6 +122,7 @@ export default function ToolsDirectoryPage() {
             Review current free-plan allowances, commercial-use terms and export restrictions
             on the official provider websites before deciding.
           </p>
+          <p className="wideText"><a href="/guides/fliki-vs-elevenlabs">Read the detailed Fliki vs ElevenLabs comparison →</a></p>
         </div>
       </section>
 

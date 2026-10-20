@@ -38,7 +38,7 @@ export default function ToolsDirectoryPage() {
             <a href="/">Home</a>
             <a href="/tools">Tools</a>
             <a href="/#categories">Categories</a>
-            <a href="/#finder">Finder</a>
+            <a href="/#how">Finder</a>
           </div>
         </div>
       </nav>
@@ -67,7 +67,7 @@ export default function ToolsDirectoryPage() {
           </p>
           <div className="infoGrid">
             {tools.map((tool) => (
-              <article className="infoCard" key={tool.name}>
+              <article className="infoCard" id={tool.name === "Fliki" ? "video" : "voice-audio"} key={tool.name}>
                 <div className="kicker">{tool.category}</div>
                 <h3>{tool.name}</h3>
                 <p>{tool.description}</p>
@@ -122,6 +122,7 @@ export default function ToolsDirectoryPage() {
             Review current free-plan allowances, commercial-use terms and export restrictions
             on the official provider websites before deciding.
           </p>
+          <p className="wideText"><a href="/guides/fliki-vs-elevenlabs">Read the detailed Fliki vs ElevenLabs comparison →</a></p>
         </div>
       </section>
 

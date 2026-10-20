@@ -18,7 +18,7 @@ const breadcrumbData = {
   "@type": "BreadcrumbList",
   "itemListElement": [
     { "@type": "ListItem", position: 1, name: "Home", item: "https://ai-pick-alen317.vercel.app/" },
-    { "@type": "ListItem", position: 2, name: "Guides", item: "https://ai-pick-alen317.vercel.app/tools" },
+    { "@type": "ListItem", position: 2, name: "Tools", item: "https://ai-pick-alen317.vercel.app/tools" },
     { "@type": "ListItem", position: 3, name: "Fliki vs ElevenLabs", item: "https://ai-pick-alen317.vercel.app/guides/fliki-vs-elevenlabs" }
   ]
 };

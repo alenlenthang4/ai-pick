@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     locale: "en_US",
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "AI Pick | Find the right AI tool for the job",
-    description: "Discover, compare, and choose AI tools for creators, freelancers, and small businesses.",
+    description: "Compare AI tools, free plans, pricing and practical workflows for creators in India. Find options that fit your budget before you sign up or pay.",
   },
   verification: {
     google: "PjjS53B6TMiRv7Vpqr8Jy_o6lNp42wq3hASRoaKJIdU",

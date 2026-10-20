@@ -92,7 +92,7 @@ export default function FlikiPage() {
           <details><summary>Does the free plan have a watermark?</summary><p>Yes. Fliki's official pricing information says free exports include a watermark.</p></details>
           <details><summary>Can I use Fliki videos commercially?</summary><p>Fliki lists commercial rights as a paid-plan feature. Check its current terms for the specific plan and content you intend to publish.</p></details>
           <details><summary>Is Fliki good for YouTube Shorts?</summary><p>It can help create narrated short videos from scripts or ideas. Review the generated scenes, pacing, captions and licensing terms before publishing.</p></details>
-          <details><summary>Is Fliki better than ElevenLabs?</summary><p>They serve different needs. Fliki focuses on combining video creation and narration; ElevenLabs is a stronger fit when your main need is generating voice or audio. Compare both against your actual workflow.</p></details>
+          <details><summary>Is Fliki better than ElevenLabs?</summary><p>They serve different needs. Fliki focuses on combining video creation and narration; ElevenLabs is a stronger fit when your main need is generating voice or audio. Compare both against your actual workflow. <a href="/guides/fliki-vs-elevenlabs">Read our detailed comparison →</a></p></details>
         </div>
       </div></section>
 

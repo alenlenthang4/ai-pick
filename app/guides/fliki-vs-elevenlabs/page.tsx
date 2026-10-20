@@ -13,9 +13,20 @@ export const metadata: Metadata = {
   },
 };
 
+const breadcrumbData = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://ai-pick-alen317.vercel.app/" },
+    { "@type": "ListItem", position: 2, name: "Guides", item: "https://ai-pick-alen317.vercel.app/tools" },
+    { "@type": "ListItem", position: 3, name: "Fliki vs ElevenLabs", item: "https://ai-pick-alen317.vercel.app/guides/fliki-vs-elevenlabs" }
+  ]
+};
+
 export default function FlikiVsElevenLabsGuide() {
   return (
     <main>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData).replace(/</g, "\\u003c") }} />
       <nav className="nav">
         <div className="wrap navInner">
           <a className="brand" href="/">AI <span>Pick</span></a>

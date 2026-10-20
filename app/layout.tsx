@@ -10,14 +10,15 @@ export const metadata: Metadata = {
     default: "AI Pick | Find the right AI tool for the job",
     template: "%s",
   },
-  description: "Discover, compare, and choose AI tools for creators, freelancers, and small businesses.",
+  description: "Compare AI tools, free plans, pricing and practical workflows for creators in India. Find options that fit your budget before you sign up or pay.",
   metadataBase: new URL(siteUrl),
   robots: { index: true, follow: true },
   openGraph: {
     type: "website",
     siteName: "AI Pick",
     title: "AI Pick | Find the right AI tool for the job",
-    description: "Discover, compare, and choose AI tools for creators, freelancers, and small businesses.",
+    description: "Compare AI tools, free plans, pricing and practical workflows for creators in India. Find options that fit your budget before you sign up or pay.",
+    url: siteUrl,
     locale: "en_US",
   },
   twitter: {

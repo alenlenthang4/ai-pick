@@ -228,6 +228,7 @@ export default function MakeYoutubeVideosWithAiGuide() {
               AI Pick may earn a commission from qualifying referrals; this does not
               determine our editorial assessments.
             </p>
+            <p className="wideText">Need to choose between script-to-video production and AI narration? <a href="/guides/fliki-vs-elevenlabs">Compare Fliki and ElevenLabs →</a></p>
             <a className="button" href="/tools">Explore the AI tools directory →</a>
             <p className="smallNote">
               Read our <a href="/affiliate-disclosure">affiliate disclosure</a> for more information.
